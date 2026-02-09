@@ -1,0 +1,43 @@
+.contact {
+  padding: 120px 10vw;
+}
+
+.contact-inner {
+  max-width: 520px;
+}
+
+.contact-inner h2 {
+  font-size: 2.4rem;
+  margin-bottom: 24px;
+}
+
+.contact-lead {
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+}
+
+/* EMAIL */
+.contact-email {
+  display: inline-block;
+  font-size: 1.1rem;
+  color: var(--silver);
+  letter-spacing: 0.06em;
+  margin-bottom: 40px;
+}
+
+/* LINKS */
+.contact-links {
+  display: flex;
+  gap: 32px;
+}
+
+.contact-links a {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  color: var(--silver-muted);
+  transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+  color: var(--silver);
+}

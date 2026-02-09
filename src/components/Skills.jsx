@@ -1,23 +1,53 @@
+import './Skills.css'
+
 export default function Skills() {
   return (
-    <section>
-      <h2>Expertise</h2>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', marginTop: '40px', gap: '32px' }}>
-        <div>
+    <section className="skills">
+      <div className="skills-header">
+        <h2>Expertise</h2>
+        <p>
+          Focused, production-grade capabilities across frontend, backend,
+          and data systems.
+        </p>
+      </div>
+
+      <div className="skills-grid">
+        <div className="skill-card">
           <h3>Web</h3>
-          <p>React, Vite, SPA Architecture, Performance Optimization</p>
+          <ul>
+            <li>React</li>
+            <li>Vite</li>
+            <li>SPA Architecture</li>
+            <li>Performance Optimization</li>
+          </ul>
         </div>
-        <div>
+
+        <div className="skill-card">
           <h3>Backend</h3>
-          <p>Node.js, REST APIs, Authentication, Scalable Systems</p>
+          <ul>
+            <li>Node.js</li>
+            <li>REST APIs</li>
+            <li>Authentication</li>
+            <li>Scalable Systems</li>
+          </ul>
         </div>
-        <div>
+
+        <div className="skill-card">
           <h3>Data</h3>
-          <p>Python, Data Pipelines, ML Integration</p>
+          <ul>
+            <li>Python</li>
+            <li>Data Pipelines</li>
+            <li>ML Integration</li>
+          </ul>
         </div>
-        <div>
+
+        <div className="skill-card">
           <h3>Tools</h3>
-          <p>Git, Docker, Cloud Deployment</p>
+          <ul>
+            <li>Git</li>
+            <li>Docker</li>
+            <li>Cloud Deployment</li>
+          </ul>
         </div>
       </div>
     </section>
