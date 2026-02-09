@@ -2,10 +2,10 @@
   --black-deep: #050505;
   --black-soft: #0b0b0b;
   --silver: #cfd3d6;
-  --silver-muted: #9da3a8;
+  --silver-muted: #a8adb1;
   --silver-glow: rgba(207, 211, 214, 0.8);
-  --text-primary: #e6e6e6;
-  --text-secondary: #b0b0b0;
+  --text-primary: #e8e8e8;
+  --text-secondary: #b3b3b3;
   --border-subtle: rgba(255, 255, 255, 0.08);
   --font-main: 'Inter', system-ui, sans-serif;
 }

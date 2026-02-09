@@ -1,0 +1,19 @@
+.cursor-light {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 420px;
+  height: 420px;
+  pointer-events: none;
+  background: radial-gradient(
+    circle,
+    var(--silver-glow) 0%,
+    rgba(207, 211, 214, 0.15) 25%,
+    rgba(207, 211, 214, 0.05) 45%,
+    transparent 70%
+  );
+  filter: blur(30px);
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  transition: transform 0.08s linear;
+}

@@ -1,0 +1,84 @@
+.projects {
+  padding: 96px 10vw;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.projects-header {
+  max-width: 520px;
+  margin-bottom: 64px;
+}
+
+.projects-header h2 {
+  font-size: 2.4rem;
+  margin-bottom: 16px;
+}
+
+.projects-header p {
+  color: var(--text-secondary);
+}
+
+/* GRID */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+/* CARD */
+.project-card {
+  padding: 32px;
+  border: 1px solid var(--border-subtle);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.025),
+    rgba(255, 255, 255, 0)
+  );
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.project-desc {
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+  flex-grow: 1;
+}
+
+.project-tech {
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: var(--silver-muted);
+  margin-bottom: 24px;
+}
+
+/* LINKS */
+.project-links {
+  display: flex;
+  gap: 24px;
+}
+
+.project-links a {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  color: var(--silver);
+  position: relative;
+}
+
+.project-links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 1px;
+  background: var(--silver);
+  transition: width 0.3s ease;
+}
+
+.project-links a:hover::after {
+  width: 100%;
+}

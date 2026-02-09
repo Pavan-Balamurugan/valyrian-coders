@@ -1,0 +1,25 @@
+.about {
+  padding: 96px 10vw;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.about-inner {
+  max-width: 720px;
+}
+
+.about-inner h2 {
+  font-size: 2.4rem;
+  margin-bottom: 32px;
+}
+
+.about-lead {
+  font-size: 1.05rem;
+  color: var(--silver);
+  margin-bottom: 28px;
+}
+
+.about-inner p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
