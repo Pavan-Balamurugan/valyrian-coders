@@ -2,7 +2,7 @@ import './Hero.css'
 
 export default function Hero() {
   return (
-    <section className="hero">
+    <section className="hero reveal">
       <span className="hero-ghost"> VALYRIAN CODERS</span>
 
       <div className="hero-content">

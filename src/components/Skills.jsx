@@ -2,12 +2,12 @@ import './Skills.css'
 
 export default function Skills() {
   return (
-    <section className="skills">
+    <section className="skills reveal">
       <div className="skills-header">
         <h2>Expertise</h2>
         <p>
-          Focused, production-grade capabilities across frontend, backend,
-          and data systems.
+          Practical skills developed through real projects, learning, and hands-on implementation.
+
         </p>
       </div>
 

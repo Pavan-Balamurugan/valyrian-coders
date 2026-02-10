@@ -2,24 +2,24 @@ import './About.css'
 
 export default function About() {
   return (
-    <section className="about">
+    <section className="about reveal">
       <div className="about-inner">
-        <h2>About Valyrian Coders</h2>
+        <h2>About Us</h2>
 
         <p className="about-lead">
-          Valyrian Coders is a freelance software collective built around
-          precision engineering, reliability, and long-term thinking.
+          Valyrian Coders is a small group of engineering students who enjoy
+          building practical software solutions.
         </p>
 
         <p>
-          We approach software as a system, not a collection of features.
-          Every decision — from architecture to implementation — is made
-          with maintainability, performance, and clarity in mind.
+          We are students from Thiagarajar College of Engineering, currently
+          working as a two-member team. We focus on building clean, functional
+          websites and applications with real-world use cases.
         </p>
 
         <p>
-          Our work favors clean design, predictable delivery, and solutions
-          that continue to perform well beyond launch.
+          We value learning by building, writing maintainable code, and
+          delivering what we commit.
         </p>
       </div>
     </section>

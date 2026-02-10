@@ -41,3 +41,39 @@ section + section {
 h1, h2, h3 {
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  main {
+    max-width: 100%;
+  }
+
+  section {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+}
+
+section {
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+h1, h2 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+
+}
+
+/* Scroll reveal base */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* When visible */
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

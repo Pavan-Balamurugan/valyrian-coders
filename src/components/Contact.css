@@ -1,5 +1,5 @@
 .contact {
-  padding: 120px 10vw;
+  padding: 120px;
 }
 
 .contact-inner {
@@ -40,4 +40,16 @@
 
 .contact-links a:hover {
   color: var(--silver);
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    gap: 16px;
+  }
 }
