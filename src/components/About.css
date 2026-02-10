@@ -1,5 +1,5 @@
 .about {
-  padding: 96px 10vw;
+  padding: 96px;
   border-bottom: 1px solid var(--border-subtle);
 }
 
@@ -22,4 +22,11 @@
   color: var(--text-secondary);
   line-height: 1.8;
   margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .about-inner {
+    max-width: 100%;
+  }
 }

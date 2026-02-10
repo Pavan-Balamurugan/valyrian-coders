@@ -8,4 +8,6 @@
   --text-secondary: #b3b3b3;
   --border-subtle: rgba(255, 255, 255, 0.08);
   --font-main: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Inter', system-ui, sans-serif;
 }
